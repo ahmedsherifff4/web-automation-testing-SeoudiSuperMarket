@@ -31,30 +31,28 @@ The framework automates **cart management, checkout flow, product selection, and
 ## 📂 Project Structure & Packages
 
 ### **BaseTest**
-- [`BaseTestClass.java`](#) – Handles setup, browser initialization, and teardown.  
+- [`BaseTestClass.java`](https://github.com/ahmedsherifff4/web-automation-testing-SeoudiSuperMarket/blob/9b654a605ea480e54117d7e52ed6cbb6ef6ec5bd/src/test/java/BaseTest/BaseTest.java) – Handles setup, browser initialization, and teardown.  
 
 ### **HooksPackage**
-- [`HooksPackeg/`](#) – Placeholder for pre/post test hooks (currently empty).  
+- [`HooksPackeg/`](https://github.com/ahmedsherifff4/web-automation-testing-SeoudiSuperMarket/blob/9b654a605ea480e54117d7e52ed6cbb6ef6ec5bd/src/test/java/HooksPackage/Hooks.java) – Placeholder for pre/post test hooks (currently empty).  
 
 ### **Pages**
-- [`CartPage.java`](#) – Methods for managing cart items and quantities.  
-- [`CheckoutPage.java`](#) – Actions for completing the checkout process.  
-- [`LocationSelectionPage.java`](#) – Handles selecting delivery locations.  
-- [`ProductsPage.java`](#) – Product browsing, selection, and filtering actions.  
+- [`CartPage.java`](https://github.com/ahmedsherifff4/web-automation-testing-SeoudiSuperMarket/blob/9b654a605ea480e54117d7e52ed6cbb6ef6ec5bd/src/test/java/Pages/CartPage.java) – Methods for managing cart items and quantities.  
+- [`CheckoutPage.java`](https://github.com/ahmedsherifff4/web-automation-testing-SeoudiSuperMarket/blob/9b654a605ea480e54117d7e52ed6cbb6ef6ec5bd/src/test/java/Pages/CheckoutPage.java) – Actions for completing the checkout process.  
+- [`LocationSelectionPage.java`](https://github.com/ahmedsherifff4/web-automation-testing-SeoudiSuperMarket/blob/9b654a605ea480e54117d7e52ed6cbb6ef6ec5bd/src/test/java/Pages/LocationSelectionPage.java) – Handles selecting delivery locations.  
+- [`ProductsPage.java`](https://github.com/ahmedsherifff4/web-automation-testing-SeoudiSuperMarket/blob/9b654a605ea480e54117d7e52ed6cbb6ef6ec5bd/src/test/java/Pages/ProductsPage.java) – Product browsing, selection, and filtering actions.  
 
 ### **Runner**
-- [`Runner.java`](#) – Executes TestNG tests or Cucumber scenarios.  
+- [`Runner.java`](https://github.com/ahmedsherifff4/web-automation-testing-SeoudiSuperMarket/blob/9b654a605ea480e54117d7e52ed6cbb6ef6ec5bd/src/test/java/Runner/Runner.java) – Executes TestNG tests or Cucumber scenarios.  
 
 ### **StepDefinitions**
-- [`StepDefinitions/`](#) – Contains Step Definition classes if using BDD.  
+- [`StepDefinitions/`](https://github.com/ahmedsherifff4/web-automation-testing-SeoudiSuperMarket/blob/9b654a605ea480e54117d7e52ed6cbb6ef6ec5bd/src/test/java/StepDefinitions/Cart_stepDef.java) – Contains Step Definition classes if using BDD.  
 
 ### **Tests**
-- [`CartQuantityUpdateTest.java`](#) – Validates cart quantity updates and verifies totals.  
+- [`CartQuantityUpdateTest.java`](https://github.com/ahmedsherifff4/web-automation-testing-SeoudiSuperMarket/blob/9b654a605ea480e54117d7e52ed6cbb6ef6ec5bd/src/test/java/Tests/CartQuantityUpdateTest.java) – Validates cart quantity updates and verifies totals.  
 
 ### **Configuration & Build**
-- [`pom.xml`](#) – Maven dependencies and build configurations  
-- [`testng.xml`](#) – TestNG Suite file  
-- [`.gitignore`](#) – Files/folders ignored in GitHub  
+- [`pom.xml`](https://github.com/ahmedsherifff4/web-automation-testing-SeoudiSuperMarket/blob/9b654a605ea480e54117d7e52ed6cbb6ef6ec5bd/pom.xml) – Maven dependencies and build configurations   
 
 > **Ignored folders:** `target/`, `test-output/`, `.idea/`, `*.iml`  
 
@@ -65,22 +63,22 @@ The framework automates **cart management, checkout flow, product selection, and
 ### Cart Management
 - Update item quantities in the cart
 - Verify total prices update correctly
-- [`CartQuantityUpdateTest.java`](#)
-
+- [`CartQuantityUpdateTest.java`](https://github.com/ahmedsherifff4/web-automation-testing-SeoudiSuperMarket/blob/9b654a605ea480e54117d7e52ed6cbb6ef6ec5bd/src/test/java/Tests/CartQuantityUpdateTest.java)
+- 
 ### Product Selection
 - Browse products
 - Select products by category or filters
-- [`ProductsPage.java`](#)
-
+- [`ProductsPage.java`](https://github.com/ahmedsherifff4/web-automation-testing-SeoudiSuperMarket/blob/9b654a605ea480e54117d7e52ed6cbb6ef6ec5bd/src/test/java/Pages/ProductsPage.java)
+- 
 ### Location Handling
 - Select delivery location
 - Verify location-specific content
-- [`LocationSelectionPage.java`](#)
+- [`LocationSelectionPage.java`](https://github.com/ahmedsherifff4/web-automation-testing-SeoudiSuperMarket/blob/9b654a605ea480e54117d7e52ed6cbb6ef6ec5bd/src/test/java/Pages/LocationSelectionPage.java)
 
 ### Checkout Flow
 - Proceed to checkout
 - Verify totals and payment options
-- [`CheckoutPage.java`](#)
+- [`CheckoutPage.java`](https://github.com/ahmedsherifff4/web-automation-testing-SeoudiSuperMarket/blob/9b654a605ea480e54117d7e52ed6cbb6ef6ec5bd/src/test/java/Pages/CheckoutPage.java) – Actions for completing the checkout process.
 
 ---
 
@@ -96,3 +94,4 @@ The framework automates **cart management, checkout flow, product selection, and
 ### Option 2: Command Line
 ```bash
 mvn test
+
