@@ -64,22 +64,18 @@ The framework automates **cart management, checkout flow, product selection, and
 - Update item quantities in the cart
 - Verify total prices update correctly
 - [`CartQuantityUpdateTest.java`](https://github.com/ahmedsherifff4/web-automation-testing-SeoudiSuperMarket/blob/9b654a605ea480e54117d7e52ed6cbb6ef6ec5bd/src/test/java/Tests/CartQuantityUpdateTest.java)
-- 
 ### Product Selection
 - Browse products
 - Select products by category or filters
 - [`ProductsPage.java`](https://github.com/ahmedsherifff4/web-automation-testing-SeoudiSuperMarket/blob/9b654a605ea480e54117d7e52ed6cbb6ef6ec5bd/src/test/java/Pages/ProductsPage.java)
-- 
 ### Location Handling
 - Select delivery location
 - Verify location-specific content
 - [`LocationSelectionPage.java`](https://github.com/ahmedsherifff4/web-automation-testing-SeoudiSuperMarket/blob/9b654a605ea480e54117d7e52ed6cbb6ef6ec5bd/src/test/java/Pages/LocationSelectionPage.java)
-
 ### Checkout Flow
 - Proceed to checkout
 - Verify totals and payment options
 - [`CheckoutPage.java`](https://github.com/ahmedsherifff4/web-automation-testing-SeoudiSuperMarket/blob/9b654a605ea480e54117d7e52ed6cbb6ef6ec5bd/src/test/java/Pages/CheckoutPage.java) – Actions for completing the checkout process.
-
 ---
 
 ## 🚀 How to Run Tests
@@ -94,4 +90,5 @@ The framework automates **cart management, checkout flow, product selection, and
 ### Option 2: Command Line
 ```bash
 mvn test
+
 
